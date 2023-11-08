@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+  </head>
+  <body>
+    <form>
+      <h3>Quản lý nhân viên</h3>
+      <div>
+        <label for="username">Họ và tên</label>
+        <input
+          tabindex="1"
+          id="username"
+          placeholder="Nhập họ và tên"
+          minlength="5"
+          maxlength="10"
+        />
+      </div>
+      <div>
+        <label for="">Ngày sinh</label>
+        <input type="date" />
+      </div>
+      <div>
+        <label for="">Giới tính</label>
+        <input type="radio" name="gender" checked /> Nam
+        <input type="radio" name="gender" /> Nữ
+        <input type="radio" name="gender" /> Khác
+      </div>
+      <div>
+        <label for="">Email</label>
+        <input type="email" disabled />
+      </div>
+      <div>
+        <label for="">Mật khẩu</label>
+        <input tabindex="2" type="password" />
+      </div>
+      <div>
+        <label for="">Địa chỉ</label>
+        <textarea tabindex="3" cols="30" rows="10"></textarea>
+      </div>
+      <div>
+        <label for="">Sở thích</label>
+        <input type="checkbox" checked /> <span>Đá bóng</span>
+        <input type="checkbox" /> <span>Chơi game </span>
+        <input type="checkbox" /> <span>Xem phim </span>
+        <input type="checkbox" /> <span>Code</span>
+      </div>
+      <div>
+        <label for="">Màu sắc</label>
+        <input type="color" />
+      </div>
+      <div>
+        <label for="">Hình ảnh</label>
+        <input type="file" />
+      </div>
+      <div>
+        <label for="">Tiến độ công việc</label>
+        <input type="range" />
+      </div>
+      <div>
+        <label for="">Tìm kiếm</label>
+        <input type="search" />
+      </div>
+      <div>
+        <input type="reset" value="Đặt lại dữ liệu" />
+        <button type="reset">Đặt lại dữ liệu</button>
+        <input type="button" value="Hủy" />
+        <input type="submit" value="Gửi dữ liệu" />
+      </div>
+      <div>
+        <label for="">Thành phố</label>
+        <select>
+          <option value="">-- Mời bạn nhập lựa chọn --</option>
+          <option value="">Hà Nội</option>
+          <option value="">Hà Nam</option>
+          <option value="">Quảng Ninh</option>
+          <option value="">Ninh Bình</option>
+        </select>
+      </div>
+      <div>
+        <label for="">Số lượng</label>
+        <input type="number" min="1" max="10" />
+      </div>
+    </form>
+  </body>
+</html>

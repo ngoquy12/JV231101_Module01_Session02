@@ -1,0 +1,17 @@
+- Form gồm các thành phần sau:
+  + Tiêu đề của form: Đăng nhập, Quản lý tài sản,...
+  + Các ô nhập dữ liệu
+  + Các nút nhấn để tương tác với Form
+  + Các đường dẫn để định tuyến
+
+- input không có thuộc tính là type thì type mặc định của nó là text
+
+- Cấu trúc của một table (bảng):
+  + Gồm hai phần: Tiêu đề và phần data (dữ liệu)
+
+- Quy trình đẩy code từ local (từ máy tính) lên remote (Trên mang) <=> Sản xuất và đưa sản phẩm đến nơi
+tiêu thụ 
+B1: Có một thùng chứa (container)
+B2: Xếp sản phẩm vào trong thùng chứa
+B3: Ghi hóa đơn vận chuyển
+B4: Vận chuyển hàng hóa đến nơi tiêu dùng

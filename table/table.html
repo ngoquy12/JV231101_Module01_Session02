@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Table</title>
+  </head>
+  <body>
+    <h3>Quản lý nhân viên</h3>
+    <!-- Cấu trúc tạo bảng -->
+    <table border="1">
+      <!-- Tiêu đề : thead => table head -->
+      <!-- tr => table rows -->
+      <!-- th => table heading -->
+      <thead>
+        <tr>
+          <th>Mã</th>
+          <th>Tên</th>
+          <th>Ngày sinh</th>
+          <th>Giới tính</th>
+          <th>Địa chỉ</th>
+          <th colspan="2">Chức năng</th>
+        </tr>
+      </thead>
+      <!-- Phần thân của table: tbody => table body-->
+      <!-- td: table data -->
+      <tbody>
+        <tr>
+          <td>NV001</td>
+          <td>Nguyễn Văn A</td>
+          <td>12/12/2023</td>
+          <td>Nam</td>
+          <td>Hà Nội</td>
+          <td>
+            <i style="color: orange" class="fa-solid fa-pen-to-square"></i>
+          </td>
+          <td>
+            <i style="color: red" class="fa-solid fa-trash"></i>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
